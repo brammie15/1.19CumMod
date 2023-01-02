@@ -1,0 +1,94 @@
+{
+	"format_version": "1.8.0",
+	"animations": {
+		"animation.cum_centrifuge.idle": {
+			"loop": true
+		},
+		"animation.cum_centrifuge.running": {
+			"loop": true,
+			"animation_length": 1,
+			"bones": {
+				"SpinnyPart": {
+					"rotation": {
+						"0.0": {
+							"vector": [0, 0, 0]
+						},
+						"1.0": {
+							"vector": [0, 360, 0],
+							"easing": "linear"
+						}
+					}
+				},
+				"Contents4": {
+					"scale": {
+						"0.0": {
+							"vector": ["contents4", "contents4", "contents4"]
+						},
+						"1.0": {
+							"vector": ["contents4", "contents4", "contents4"]
+						}
+					}
+				},
+				"Contents1": {
+					"scale": {
+						"0.0": {
+							"vector": ["contents1", "contents1", "contents1"]
+						},
+						"1.0": {
+							"vector": ["contents1", "contents1", "contents1"]
+						}
+					}
+				},
+				"Contents2": {
+					"scale": {
+						"0.0": {
+							"vector": ["contents2", "contents2", "contents2"]
+						},
+						"1.0": {
+							"vector": ["contents2", "contents2", "contents2"]
+						}
+					}
+				},
+				"Contents3": {
+					"scale": {
+						"0.0": {
+							"vector": ["contents3", "contents3", "contents3"]
+						},
+						"1.0": {
+							"vector": ["contents3", "contents3", "contents3"]
+						}
+					}
+				}
+			}
+		},
+		"animation.cum_centrifuge.deploy": {
+			"loop": "hold_on_last_frame",
+			"animation_length": 0.5,
+			"bones": {
+				"SpinnyPart": {
+					"scale": {
+						"0.0833": {
+							"vector": [0, 0, 0]
+						},
+						"0.5": {
+							"vector": [1, 1, 1],
+							"easing": "easeInElastic"
+						}
+					}
+				},
+				"Shaft": {
+					"scale": {
+						"0.0": {
+							"vector": [0, 0, 0]
+						},
+						"0.5": {
+							"vector": [1, 1, 1],
+							"easing": "easeInElastic"
+						}
+					}
+				}
+			}
+		}
+	},
+	"geckolib_format_version": 2
+}
